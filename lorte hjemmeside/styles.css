@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+}
+
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.main-header {
+  margin: 20px;
+  padding-left: 40px;
+  padding-bottom: 15px;
+  background-color: rgba(1, 196, 255, 0.5);
+  background-blend-mode: multiply;
+}
+
+.main-header h1 {
+  font-size: 10em;
+  margin: 0;
+  text-align: center; 
+}
+
+
+
+
+.kad li {
+  display: inline-block;
+  font-size: 3em;
+  margin: 10px;
+  width: 150px;
+  padding: 50px;
+  text-align: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0,0,0,.4);
+}
+
+
+
+.kad li:hover {
+  background-color: rgba(255,255,255,.5);
+}
+
+.sektion {
+  margin: 30px;
+  padding: 10px;
+}
+
+.sektion:hover {
+  background-color: rgba(0,0,0,.1);
+}
+
+.kad li b {
+  color: rgb(255, 255, 255);
+}
+
+.kad .kop {
+  background-image: url('keramik_kop.jpg') ;
+  height: 300px;
+  width: 300px;
+  
+}
+
+.kad .skål {
+  background-image: url('keramik_skål.jpg') ;
+  height: 300px;
+  width: 300px;
+}
+
+.kad .talerken {
+  background-image: url('talerken.jpg') ;
+  height: 300px;
+  width: 300px;
+}
+
+.kad .pot {
+  background-image: url('keramik_potte.jpg') ;
+  height: 300px;
+  width: 300px;
+}
+
+
+footer {
+  background-color: rgba(0, 183, 255,.7);
+  margin: 30px;
+}
+
+
+footer div {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.fot {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
